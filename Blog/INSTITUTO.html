@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Instituto [Nombre del Instituto]</title>
+    <style>
+        
+        @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&family=Roboto:wght@300;400&display=swap');
+
+        body {
+            font-family: 'Raleway', sans-serif;
+            background-color: #f0f8ff;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background: linear-gradient(90deg, #0072c6, #00a2ff);
+            color: white;
+            text-align: center;
+            padding: 30px 0;
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+            border-bottom: 5px solid #00509e;
+        }
+
+        header img {
+            max-width: 120px;
+            height: auto;
+            margin-bottom: 10px;
+            animation: logoBounce 2s ease-in-out infinite;
+        }
+
+        @keyframes logoBounce {
+            0%, 100% {
+                transform: translateY(0);
+            }
+            50% {
+                transform: translateY(-10px);
+            }
+        }
+
+        header h1 {
+            font-size: 2.8em;
+            margin: 10px 0;
+            color: #fff;
+        }
+
+        header p {
+            font-size: 1.2em;
+            font-family: 'Roboto', sans-serif;
+        }
+
+        section {
+            padding: 40px 10%;
+            background-color: #fff;
+            margin: 20px auto;
+            max-width: 1200px;
+            border-radius: 12px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease;
+        }
+
+        section:hover {
+            transform: scale(1.02);
+        }
+
+        h2 {
+            font-size: 2.5em;
+            margin-bottom: 20px;
+            color: #0072c6;
+            text-align: center;
+            font-family: 'Raleway', sans-serif;
+            text-transform: uppercase;
+            letter-spacing: 1.5px;
+        }
+
+        p {
+            font-size: 1.1em;
+            line-height: 1.6;
+            margin-bottom: 20px;
+            text-align: justify;
+            color: #444;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+            margin: 10px 0;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease;
+        }
+
+        img:hover {
+            transform: scale(1.05);
+        }
+
+        .gallery {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+
+        .gallery img {
+            width: 30%;
+            height: auto;
+        }
+
+        /* Botones */
+        .btn {
+            display: inline-block;
+            padding: 12px 25px;
+            margin: 10px 0;
+            font-size: 1em;
+            color: white;
+            background-color: #0072c6;
+            border-radius: 50px;
+            text-align: center;
+            text-decoration: none;
+            transition: background-color 0.3s ease, transform 0.3s ease;
+        }
+
+        .btn:hover {
+            background-color: #00509e;
+            transform: scale(1.05);
+        }
+
+        footer {
+            background-color: #00509e;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin-top: 40px;
+        }
+
+        footer p {
+            margin: 0;
+            font-size: 1em;
+        }
+
+        h3 {
+            font-size: 1.8em;
+            color: #0072c6;
+            margin-bottom: 10px;
+            text-align: left;
+        }
+
+        section:hover h2, section:hover p {
+            color: #00509e;
+        }
+
+        @keyframes fadeIn {
+            0% { opacity: 0; transform: translateY(20px); }
+            100% { opacity: 1; transform: translateY(0); }
+        }
+
+        section {
+            animation: fadeIn 1s ease-in-out;
+        }
+
+    </style>
+</head>
+<body>
+
+    <header>
+        <img src="Logo.jpg">
+        <h1>Instituto Dr. Marco Aurelio Soto</h1>
+        <p>A lo largo de los años, el Instituto Dr. Marco Aurelio Soto ha formado a estudiantes que se han destacado en diversas áreas, tanto académicas como profesionales. Nuestros egresados son el reflejo del compromiso y calidad educativa que brindamos, destacándose como líderes en sus respectivas comunidades y profesiones.</p>
+    </header>
+
+    <section>
+        <h2>Ofrecemos</h2>
+        <p>En el Instituto Dr. Marco Aurelio Soto, ofrecemos una educación integral con programas de formación en diversos niveles y áreas:</p>
+        <p><strong>Tercer ciclo de Educación Básica (7°, 8°, 9°)</strong></p>
+
+        <h3>Bachilleratos</h3>
+        <p><strong>Bachillerato en Ciencias y Humanidades</strong></p>
+        <p>El Bachillerato en Ciencias y Humanidades capacita al estudiante en áreas como ciencias naturales, matemáticas, química y física. Además, se abordan temas de ciencias sociales y el correcto uso de la expresión oral y escrita.</p>
+        <img src="ciencias y humanidades.jpg">
+
+        <p><strong>Bachillerato Técnico Profesional en Informática</strong></p>
+        <p>Este bachillerato te brindará las competencias necesarias para desenvolverte en el mundo de la tecnología, programando, diseñando sistemas y desarrollando soluciones tecnológicas.</p>
+        <img src="informatica.jpg">
+
+        <p><strong>Bachillerato Técnico Profesional en Contaduría y Finanzas</strong></p>
+        <p>La Contaduría tiene como propósito medir, registrar y analizar todo el capital financiero de una compañía, brindando conocimientos en finanzas, auditoría, inversión, presupuestos y más.</p>
+        <img src="finanzas.jpg">
+
+        <p><strong>Bachillerato Técnico Profesional en Administración de Empresas</strong></p>
+        <p>La carrera de Administración de Empresas prepara profesionales capacitados para administrar eficazmente y dirigir los recursos humanos de una organización, brindando conocimientos en economía, contabilidad y administración.</p>
+        <img src="empresas.jpg">
+    </section>
+
+    <div class="personal-docente section">
+        <h2>Directora de el Instituto:</h2>
+        <img src="Directora.jpg">
+        <h2>Personal Docente del Instituto</h2>
+        <img src="Personal docente.jpg">
+    </div>
+
+    <section>
+        <h2>Instalaciones</h2>
+        <p>Contamos con instalaciones modernas y bien equipadas para proporcionar el mejor ambiente de aprendizaje a nuestros estudiantes:</p>
+        <p><strong>Laboratorio de Informática</strong></p>
+        <img src="laboratorio informatica.jpg">
+
+        <p><strong>Laboratorio Contable</strong></p>
+        <img src="laboratorio contable.jpg">
+
+        <p><strong>Laboratorio de Ciencias Naturales</strong></p>
+        <img src="LaboratorioNaturales.jpg">
+
+        <p><strong>Aulas de Clase</strong></p>
+        <div class="gallery">
+            <img src="Aulaclas1.jpg">
+            <img src="Aulaclas2.jpg">
+            <img src="Aulaclas3.jpg">
+        </div>
+
+        <p><strong>Cancha Polideportiva Techada</strong></p>
+        <img src="Cancha.jpg">
+
+        <p><strong>Baños</strong></p>
+        <img src="baños.jpg">
+
+        <p><strong>Sala de Maestros</strong></p>
+        <img src="salamaestros.jpg">
+
+        <p><strong>Librería y Fotocopiadora</strong></p>
+        <img src="Libreria.jpg">
+
+        <p><strong>Microempresa del Bachillerato Técnico en Administración de Empresas</strong></p>
+        <img src="microempresa.jpg" alt="Microempresa">
+    </section>
+
+    <section>
+        <h2>Actividades</h2>
+        <p>Fomentamos un ambiente enriquecido por diversas actividades que promueven el desarrollo integral de nuestros estudiantes.</p>
+        <p><strong>Día del Pino, Árbol Nacional de Honduras</strong></p>
+        <div class="gallery">
+            <img src="arbol1.jpg">
+            <img src="Arbol2.jpg">
+            <img src="Arbol3.jpg">
+        </div>
+
+        <p><strong>Gobierno Estudiantil</strong></p>
+        <div class="gallery">
+            <img src="Gobierno1.jpg">
+            <img src="Gobierno2.jpg">
+        </div>
+
+        <p><strong>Día del Reciclaje</strong></p>
+        <div class="gallery">
+            <img src="recicla1.jpg">
+            <img src="recicla2.jpg">
+            <img src="recicla3.jpg">
+        </div>
+
+        <p><strong>Feria Científica</strong></p>
+        <div class="gallery">
+            <img src="cientifica1.jpg">
+            <img src="cientifica2.jpg">
+            <img src="cientifica3.jpg">
+            <img src="cientifica4.jpg">
+        </div>
+
+        <p><strong>Día del Estudiante</strong></p>
+        <div class="gallery">
+            <img src="estudiante1.jpg">
+            <img src="Estudiante2.jpg">
+            <img src="Estudiante3.jpg">
+        </div>
+
+        <p><strong>Día de la India Bonita</strong></p>
+        <div class="gallery">
+            <img src="India1.jpg">
+            <img src="India2.jpg">
+        </div>
+
+        
+        <p><strong>Mini festival la CUMA</strong></p>
+            <div class="gallery">
+                <img src="festival1.jpg">
+                <img src="festival2.jpg">
+                <img src="festival3.jpg">
+                <img src="festival4.jpg">
+            </div>
+
+        <p><strong>Día del Mes de la Familia</strong></p>
+        <div class="gallery">
+            <img src="Familia1.jpg">
+            <img src="Familia2.jpg">
+        </div>
+
+        <p><strong>Proyección con otros Centros Educativos</strong></p>
+        <div class="gallery">
+            <img src="niños1.jpg">
+            <img src="niños2.jpg">
+        </div>
+
+        <p><strong>Fiestas Patrias</strong></p>
+        <div class="gallery">
+            <img src="Desfile1.jpg">
+            <img src="desfile2.jpg">
+            <img src="desfile3.jpg">
+            <img src="desfile4.jpg">
+            <img src="desfile5.jpg">
+            <img src="desfile6.jpg">
+            <img src="desfile7.jpg">
+            <img src="desfile8.jpg">
+            <img src="desfile9.jpg">
+            <img src="desfile10.jpg">
+            <img src="desfile11.jpg">
+            <img src="desfile12.jpg">
+            <img src="desfile13.jpg">
+        </div>
+
+        <p><strong>Banda Marcial IDMAS</strong></p>
+        <img src="banda.jpg">
+        <img src="Banda2.jpg">
+
+        <p><strong>Huerto</strong></p>
+        <div class="gallery">
+            <img src="huerto1.jpg">
+            <img src="huerto2.jpg">
+        </div>
+
+        <p><strong>Campañas de Limpieza</strong></p>
+        <div class="gallery">
+            <img src="Limpieza1.jpg">
+            <img src="limpieza2.jpg">
+            <img src="Limpieza3.jpg">
+        </div>
+
+        <p><strong>Visitas a Centros Educativos para Mantenimiento de Laboratorio de Informática</strong></p>
+        <div class="gallery">
+            <img src="pasantia2.jpg">
+            <img src="pasantia1.jpg">
+        </div>
+
+        <p><strong>Capacitación</strong></p>
+            <div class="gallery">
+        <p>Capacitación Técnicas de Ingeniería Social y Phishing en ciberseguridad a estudiantes de duodecimo de BTP en informática  impartida por el departamento de informática COHESSA, SOLAR Power</p>
+                <img src="capacitacion1.jpg">
+                <img src="capacitacion2.jpg">
+
+            </div>   
+        
+    </section>
+
+    <footer>
+        <p>&copy; Instituto Dr. Marco Aurelio Soto. Todos los derechos reservados.</p>
+    </footer>
+
+</body>
+</html>
